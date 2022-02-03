@@ -4,8 +4,8 @@ static const char *group = "nobody";
 
 static const char *colorname[NUMCOLS] = {
 	[INIT] =   "black",     /* after initialization */
-	[INPUT] =  "#073642",   /* during input */
-	[FAILED] = "#dc322f",   /* wrong password */
+	[INPUT] =  "#005577",   /* during input */
+	[FAILED] = "#CC3333",   /* wrong password */
 	[CAPS] = "red",         /* CapsLock on */
 };
 
@@ -13,7 +13,7 @@ static const char *colorname[NUMCOLS] = {
 static const int failonclear = 0;
 
 /* time in seconds before the monitor shuts down */
-static const int monitortime = 15;
+static const int monitortime = 30;
 
 /* default message */
 static const char * message = "Locked";
