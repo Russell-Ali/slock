@@ -22,4 +22,4 @@ static const char * message = "Locked";
 static const char * text_color = "#ffffff";
 
 /* text size (must be a valid size) */
-static const char * font_name = "-xos4-terminus-bold-r-normal--32-320-72-72-c-160-iso10646-1";
+static const char * font_name = "-*-terminus-bold-*-*-*-*-320-*-*-*-*-*-*";
